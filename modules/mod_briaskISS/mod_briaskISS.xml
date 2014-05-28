@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension
+	type="module"
+	version="1.6.0"
+	client="site"
+	method="upgrade">
+	<name>ImageSlideShow</name>
+	<author>Original version created by Briask - March 2008</author>
+	<creationDate>Updated for 1.6 Joomla - March 2010</creationDate>
+	<copyright></copyright>
+	<license>GNU GPL</license>
+	<authorEmail>briask@briask.com</authorEmail>
+	<authorUrl>http://www.briask.com</authorUrl>
+	<version>1.0</version>
+	<description>A rotating image slideshow module. Note: This module has been modified by Joomla Template Shop (www.joomlatemplateshop.net).</description>
+	<files>
+		<filename module="mod_briaskISS">mod_briaskISS.php</filename>
+		<filename module="mod_briaskISS">mod_briaskUtility.php</filename>
+		<filename module="mod_briaskISS">mod_briaskISS.css</filename>
+		<filename module="mod_briaskISS">mod_briaskISS.js</filename>
+		<filename module="mod_briaskISS">index.html</filename>
+		<filename module="mod_briaskISS">copying.lic</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+	
+		<field name="moduleclass_sfx" type="text" default="_flashImages" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX"></field>
+		<field name="Directory" type="text" default = "images/flash_images" label="Image Directory"  description = "Image Directory"></field>
+		<field name="pxHeight" type="text" default = "213" label="Heigth in pixels"  description = "Heigth in pixels"></field>
+		<field name="pxWidth" type="text" default = "576" label="Width in pixels"  description = "Width in pixels"></field>
+		<field name="transDelay" type="text" default = "50" label="Transition Delay"  description = "Transition Delay"></field>
+		<field name="nextDelay" type="text" default = "3000" label="Next Image Delay"  description = "Next Image Delay"></field>
+		<field name="Title" type="text" default = "An Image Slideshow" label="Slideshow title"  description = "Title to appear on Slideshow"></field>
+		<field name="URL" type="text" default = "index.php" label="URL"  description = "URL to link to when Slideshow image is clicked."></field>
+		<field name="EnableLink" type="radio" default="0" label="Enable Link?" description="Enable Link on Picture" >
+			<option value="0">Disable</option>
+			<option value="1">Enable (same window)</option>
+			<option value="2">Enable (new window)</option>
+		</field>
+		<field name="Sequence" type="radio" default="0" label="Display Sequence?" description="What sequence to use to display the images." >
+			<option value="0">Disable</option>
+			<option value="1">Shuffle</option>
+			<option value="2">Sorted</option>
+			<option value="3">Totally Random</option>
+		</field>
+		<field name="Resize" type="radio" default="0" label="Resize Images?" description="If enabled ISS will copy all images in the specified directory to a thumbnail directory and resize the images to the height/width specified and will attempt to maintain proportions. These thumbnails will then be used for the display." >
+			<option value="0">Disable</option>
+			<option value="1">Resize images</option>
+		</field>
+	</fieldset>
+		</fields>
+	</config>
+</extension>

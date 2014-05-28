@@ -1,0 +1,9 @@
+
+#nav li li a { display:inline-block }
+#nav li li a:hover { width:88% }
+
+.moduletable_login .cont { padding-top:20px }
+.moduletable_login li {  margin:0 7px 0 0 }
+.moduletable_login p#form-login-remember { margin:15px 0 0 5px }
+#form-login .button { margin:12.5px 0 0 0 }
+

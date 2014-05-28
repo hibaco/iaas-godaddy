@@ -1,0 +1,372 @@
+
+/*_______________GENERAL SETUP________________*/
+body, html { font-size:14px; font-family: 'ABeezee',Tahoma,Geneva,Arial,Helvetica,sans-serif; margin:0; padding:0;}
+#body { background-image:url('http://iaasnj.org/testing/images/tweed-background.png');
+background-repeat:repeat;
+background-size: 5%; }
+html { height:100.1% }
+h1, h2, h3, h4, h5, h6, label, legend, fieldset, div, form { margin:0; padding:0; border:0 }
+table { border-collapse:collapse }
+td { vertical-align:top }
+a img, :link img, :visited img { border:0; outline:none }
+#wrapper { color:#494127 }
+#footer, #copyright, #footer a, #copyright a { color:#fff }
+a { color:#034460; outline:none }
+a:hover { color:#025065 }
+p img { padding:0px 10px 0px 0px; margin:0 }
+p, div { font-weight:normal }
+
+/*___________________MAIN LAYOUT________________*/
+#wrapper {
+    background: none repeat scroll 0 0 #7C97C9;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 1%;
+    width: 976px;
+}
+
+#headerLogo {
+    background: url("http://iaasnj.org/testing/images/sidedots.png") repeat-y scroll 98.1% 3% transparent;
+    border-radius: 0 0 10px 10px;
+    height: auto !important;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 460px;
+    width: 98%;
+	background-color: white;
+}
+
+#headerLogoSummerAcademy {
+	background: url("http://iaasnj.org/testing/images/sidedots.png") repeat-y scroll 98.1% 3% transparent;
+    border-radius: 0 0 10px 10px;
+    height: 1100px !important;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 460px;
+    width: 98%;
+	background-color: white;
+}
+
+#logo {
+    float: left;
+    height: 137px;
+    margin: 0;
+    width: 100%;
+	font-size: 0.85em;;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+#logo img {
+	width: 100%;
+}
+
+#logo #logo-container {
+    display: inline-block;
+    float: left;
+    margin: -15px 1.5% 0;
+    width: 23%;
+}
+
+#header-title {
+    float: left;
+    font-weight: normal;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+}
+
+#logo #IAAStitle-container {
+    clear: right;
+    float: left;
+    position: relative;
+    width: 22%;
+}
+
+#logo #header-title h1 {
+    clear: left;
+    color: #9B171E;
+    font-family: 'AbeeZee';
+    font-variant: small-caps;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+#logo h2 {
+    color: #7899C8;
+    font-family: 'ABeeZee',"Tahoma",Arial,sans-serif;
+    font-weight: normal;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+#breadcrumb { height:28px; padding:5px 15px 0 0; margin:0; float:right; font-size:.8em; display:inline }
+#search { height:32px }
+.search .inputbox { color:#fff; background:none; border:none; width:140px; margin:17px 70px 0 0; padding:0; float:right; font-size:0.9em; outline:none }
+
+/*---------- Sidebar ----------*/
+#left-sidebar {
+    clear: right;
+    float: left;
+    height: auto;
+	margin: 100px 1% 1% 2%;
+    position: relative;
+    width: 23%;
+}
+
+
+/*---------- Social Media ----------*/
+
+
+#social-media {
+    background: url("/testing/images/facebook-dots.png") no-repeat scroll center top transparent;
+    padding-top: 23px;
+} 
+
+
+#social-media #connect-with-us {
+    background: none repeat scroll 0 0 #7C97C9;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-size: 1em;
+    padding: 1px;
+    text-align: center;
+	color: #fbf8f1;
+}
+
+#social-media #facebook {
+    background: none repeat scroll 0 0 orange;
+    border-radius: 100% 100% 100% 100%;
+    height: 25px;
+    margin: 11px auto;
+    padding: 20px;
+    text-align: center;
+    width: 25px;
+}
+
+#social-media #facebook img {
+    margin-left: -1px;
+    margin-top: -2px;
+    width: 65%;
+}
+
+
+/** --------- ICNY -----------------*/
+#ICNY {
+	margin-top: 30px;
+	background: url("/testing/images/facebook-dots.png") no-repeat scroll center top transparent;
+    padding-top: 23px;
+}
+
+#LearnSpanishAtIAAS {
+	background: none repeat scroll 0 0 #6bd0dc;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-size: .96em;
+    padding: 1px;
+    text-align: center;
+	color: #fbf8f1;
+	margin-bottom: 11px;
+
+}
+
+
+#LearnSpanishContainer {
+    background-color: #BB96C1;
+    background-image: url("/testing/images/learn-spanish.jpg");
+    background-position: 50% 15%;
+    background-repeat: no-repeat;
+    background-size: 85% auto;
+    border-radius: 5px 5px 0 0;
+    height: 175px;
+    width: 100%;
+}
+
+#ICNYinfo {
+    background: none repeat scroll 0 0 #bb96c1;
+    border-radius: 0 0 5px 5px;
+    color: #FBF8F1;
+    margin-top: -8px;
+    padding: 1px 1px 0;
+	text-align: center;
+}
+
+
+#ICNYinfo a {
+}
+/*bb96c1*/
+#RegisterNow {
+    background: none repeat scroll 0 0 #6BD0DC;
+    color: #FBF8F1;
+    font-size: 1em;
+    margin-bottom: 11px;
+    margin-left: -1px;
+    margin-right: 0;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+	border-radius: 0 0 5px 5px;
+}
+
+#RegisterNow p {
+	 color: #FBF8F1;
+}
+
+#ICNY a {
+	text-decoration: none;
+}
+
+/*---------- Languages ----------*/
+#Languages {
+	margin-top: 30px;
+	background: url("/testing/images/facebook-dots.png") no-repeat scroll center top transparent;
+    padding-top: 23px;
+}
+
+#LanguagesHeader {
+	background: none repeat scroll 0 0 #7c97c8;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-size: 1em;
+    padding: 1px;
+    text-align: center;
+	color: #fbf8f1;
+	margin-bottom: 11px;
+}
+
+#LanguagesHeader  {
+	position: relative;
+	float: left;
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+}
+
+#LanguageText {
+	display: inline;
+    float: left;
+    margin: 0 20px 0 12px;
+}
+
+#LanguagesHeader img {
+	position: relative;
+	float: left;
+	width: 15%;
+	margin: 6px 4px 0 6px;
+}
+
+/*---------- Main Content ----------*/
+#mainLeft {
+    background: none repeat scroll 0 0 #FBF8F1;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px #888888;
+    float: left;
+    margin: -0.5% 1.5%;
+    padding: 10px;
+    position: relative;
+    width: 605px;
+	min-height: 670px;
+}
+
+#mainFull { width:976px; margin:130px auto 0 auto }
+#mainFullTop { width:928px; height:82px; margin:0 auto; background:url(../images/mainfull-top.png) no-repeat }
+#mainFullMid { 
+	width:856px; 
+	margin:0 auto; 
+	padding:0 60px; 
+	background:url(../images/main-mid2.png) repeat-y; 
+	overflow:hidden; 
+	min-height:200px; 
+	height:auto !important; 
+	height:200px 
+}
+
+#sidebar1 { width:240px; float:right; margin:260px 26px 0 0; display: none;}
+#footer-1 {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+#footer-2 { width:976px; height:78px; background:url(../images/main-bottom2.png) bottom no-repeat }
+#login { width:945px; margin:5px auto }
+#copyright {
+	background: none repeat scroll 0 0 #7C97C9;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 0 2px #888888;
+    float: left;
+    font-size: 0.8em;
+    height: auto;
+    margin: 10px 0;
+    padding: 13px 0 15px 18px;
+    width: 385px;
+}
+
+/*__________VERTICAL SIDE MENU STYLES________*/
+ul.menu { margin:0; padding:0; z-index:50 !important }
+ul.menu li { list-style:none; margin:0; padding:0; z-index:50 !important }
+ul.menu span { display:block; height:18px; line-height:18px; padding-left:0 }
+ul.menu a { display:block; background:url(../images/menu-list.png) no-repeat 0 4px; font-weight:bold; margin:0; text-decoration:none; cursor:pointer }
+ul.menu a:hover { background:url(../images/menu-list.png) no-repeat 0 4px }
+ul.menu ul { margin:0; padding:0 }
+ul.menu ul a { text-indent:0; z-index:50 !important; cursor:pointer; padding-left:10px }
+ul.menu ul li a, ul.menu ul li a:hover, ul.menu li.active li a {  text-align:left; margin:0 0 0 5px; font-weight:normal }
+ul.menu li.active li a:hover { cursor:pointer }
+ul.menu li li { padding:0; margin:0; z-index:50 !important }
+ul.menu li a { padding-left:12px; z-index:50 !important }
+ul.menu li.active a { text-decoration:none; z-index:50 !important }
+ul.menu li a:hover, ul.menu li.active li a:hover { text-decoration:underline }
+ul.menu li.active li a { z-index:50 !important; text-decoration:inherit; font-weight:normal } 
+/*_________END VERTICAL SIDE MENU STYLES________*/
+
+/*__________MODULE STYLES________*/
+/* DEFAULT MODULES (position- sidebar-1 & sidebar-2) */
+.moduletable, .moduletable_menu, .moduletable_text { padding:0 0 10px 0; margin:0 0 2px 0; width:237px; color:#fff }
+.moduletable h3, .moduletable_menu h3, .moduletable_text h3 { font-family:"Trebuchet MS", Geneva, Arial; width:207px; line-height:51px; padding:0 0 4px 30px; margin:0 auto; font-size:1.25em; font-weight:bold;  background: url(../images/module-title.png) no-repeat; color:#fff }
+.moduletable .cont, .moduletable_text .cont { width:200px; margin:0 auto }
+.moduletable .cont ul, .moduletable_text .cont ul  { margin:0; padding:0; border:0 }
+.moduletable_menu .cont ul { margin:0 0 0 20px; padding:0 }
+.moduletable li { margin:0; padding:0 0 0 9px; list-style:none; background:url(../images/list.gif) no-repeat 0 6px; line-height:17px }
+.moduletable .cont p { margin:0; padding:0 }
+.moduletable a { color:#fff }
+
+/* LOGIN MODULE (position- bottom) */
+#login .moduletable h3 { background-image:none }
+.moduletable_login { background:url(../images/login.png) no-repeat; width:548px; height:97px; float:right; color:#fff; display: none; }
+.moduletable_login .cont { width:500px; margin:0 auto; float:none; padding-top:5px }
+.moduletable_login p { list-style:none; float:left; margin-right:9px }
+.moduletable_login li { list-style:none; float:left; margin:-10px 7px 0 10px; padding:0; font-size:.85em }
+/* Note: If positioned in "sidebar-1" remove the margin from these styles */
+.moduletable_login .cont ul { margin:0 0 0 -8px; padding:0 }
+#modlgn_remember { width:20px; border:none }
+#login-form .button { margin:25px 0 0 0 }
+.moduletable_login .input .inputbox { width:123px; border:1px solid #9ebb59 }
+.moduletable_login #modlgn-username.inputbox, .moduletable_login #modlgn-passwd.inputbox { width:123px; float:left }
+.moduletable_login p#form-login-username, .moduletable_login p#form-login-password { float:left; width:123px }
+.moduletable_login p#form-login-remember { float:left; width:123px; margin:30px 0 0 5px }
+.moduletable_login a { color:#fff }
+
+/*IMAGE SLIDESHOW MODULE (position=slideshow-images) */ 
+.moduletable_flashImages  { float:none; width:600px; height:225px; margin:5px auto; padding:12px 0 0 0; background:url(../images/bannerFrame.png) no-repeat }
+
+/*HOME PAGE IMAGES MODULE (position=user1) */ 
+.moduletable_homeBanners  { float:none; width:605px; margin:3px auto }
+.moduletable_homeBanners h3 { background-image:none }
+.moduletable_homeBanners p, .moduletable_homeBanners img { padding:0; margin:0 }
+
+/*SOCIAL ICONS MODULE (position=sidebar-1) */ 
+.moduletable_social img { padding:0; margin:0 5px }
+.moduletable_social h3 { font-family:"Trebuchet MS", Geneva, Arial; width:207px; line-height:51px; padding:0 0 0 30px; margin:0 auto; font-size:1.25em; font-weight:bold; background: url(../images/module-title.png) no-repeat; color:#fff }
+.moduletable_social .cont { width:200px; margin:0 auto }
+
+
+

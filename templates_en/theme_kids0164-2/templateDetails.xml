@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template">
+	<name>theme_kids0164-2</name>
+	<creationDate>04/01/11</creationDate>
+	<author>Joomla Template Shop</author>
+	<authorEmail>support@joomlatemplateshop.net</authorEmail>
+	<authorUrl>http://www.joomlatemplateshop.net</authorUrl>
+	<copyright>Copyright 2011 Joomla Template Shop. All Rights Reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.6.0</version>
+	<description>A 1.6 Joomla! template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.html</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+	</files>
+	<positions>
+		<position>dropmenu</position>
+		<position>sidebar-1</position>
+		<position>slideshow-images</position>
+		<position>bottom</position>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>user1</position>
+		</positions>
+	
+
+</extension>

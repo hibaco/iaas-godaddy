@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: en-US.xml 20196 2011-06-22 02:40:25Z Leonard Fitzgerald $ -->
+<metafile version="1.6" client="administrator">
+	<name>English (USA)</name>
+	<version>1.6.4</version>
+	<creationDate>2011-06-27</creationDate>
+	<author>Aussiesrus - Australia</author>
+	<authorEmail>admin@aussiesrus.com.au</authorEmail>
+	<authorUrl>www.aussiesrus.com.au</authorUrl>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>English-(US) administrator language pack for Joomla! 1.6.4</description>
+		
+	<metadata>
+		<name>English (USA)</name>
+		<tag>en-US</tag>
+		<rtl>0</rtl>
+		<locale>en_US.utf8, en_US.UTF-8, en_US, eng_US, en, english, english-us, us, usa, american, america, american, us, america, america</locale>
+		<firstDay>0</firstDay>
+	</metadata>
+	<params />
+</metafile>
